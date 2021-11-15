@@ -1,4 +1,4 @@
-PRIMEIRA PARTE
+##### PRIMEIRA PARTE
 
 1 - Modifique o tamanho do h1 para 65 pixels
 
@@ -8,7 +8,7 @@ PRIMEIRA PARTE
 
 4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo
 
-SEGUNDA PARTE
+##### SEGUNDA PARTE
 
 1 - Modifique o família do h1 para sans-serif
 
