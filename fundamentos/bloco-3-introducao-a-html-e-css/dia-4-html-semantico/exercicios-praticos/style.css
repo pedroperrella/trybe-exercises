@@ -1,0 +1,27 @@
+header {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+body {
+    padding: 10px;
+}
+
+img {
+    height: 300px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+footer {
+    border-top: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
