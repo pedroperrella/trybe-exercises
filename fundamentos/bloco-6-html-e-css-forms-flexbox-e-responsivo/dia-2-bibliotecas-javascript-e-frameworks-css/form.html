@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="input-name">Nome:
+                <input type="text" name="name" id="input-name" required maxlength="40">
+            </label> 
+            <label for="input-email">Email
+                <input type="text" name="email" id="input-email" required maxlength="50">
+            </label>           
+            <label for="input-cpf">CPF
+                <input type="text" name="cpf" id="input-cpf" required maxlength="11">
+            </label>
+            <label for="input-address">Endereço
+                <input type="text" name="address" id="input-address" required maxlength="200">
+            </label>
+            <label for="input-city">Cidade
+                <input type="text" name="city" id="input-city" required maxlength="28">
+            </label>
+            <label for="input-state">Estado
+                <select name="state" id="input-state" required>
+                    <option disable selected value="">Selecione seu estado</option>
+                </select>
+            </label>
+            <label class='di-type'>Tipo
+            <label for="input-house">s
+                <input type="radio" name="type" id="input-house" required>Casa
+            </label>
+            <label for="input-ap">
+                <input type="radio" name="type" id="input-ap" required>Apartamento
+            </label>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="input-curriculum">Resumo do currículo:
+                <input type="text" name="curriculum" id="input-curriculum" required maxlength="1000">
+            </label> 
+            <label for="input-post">Cargo
+                <input type="text" name="post" id="input-post" required maxlength="40">
+            </label>           
+            <label for="input-description">Descrição do cargo
+                <input type="text" name="description" id="input-description" required maxlength="500">
+            </label>
+            <label for="input-description">Data de início
+                <input type="date" name="date" id="input-date" required maxlength="500">
+            </label>
+            <button type="submit" class='submit-button'>Enviar</button>
+            <button type="button" class='clear-button'>Limpar</button>
+        </fieldset>
+    </form>
+
+<script src="script.js"></script> 
+</body>
+</html>
